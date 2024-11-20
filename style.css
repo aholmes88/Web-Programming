@@ -9,6 +9,19 @@ header,footer {
     text-align: center;
     font-size: 2rem;
 }
+nav{
+    background-color: grey;
+    justify-content:space-evenly;
+    flex-direction: row;
+    display:flex;
+
+
+}
+#myPhoto {
+    width: 10%;
+    clip-path:circle();
+
+}
 h1 {
     font-family:'Courier New', Courier, monospace;
     font-weight:5rem;

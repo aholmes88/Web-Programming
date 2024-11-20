@@ -1,0 +1,21 @@
+h1 {
+    font-size: 10em;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+button {
+    background-color: skyblue;
+    justify-content: center;
+    color: black;
+    font-size: 200px;
+    border-radius: 25px;
+    border: inset;
+    border-color: black solid;
+}
+button :hover {
+ background-color:black;
+ color: whitesmoke;
+ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ border-radius: 25px;
+ border-color: blue;
+}
