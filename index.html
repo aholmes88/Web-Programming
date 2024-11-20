@@ -6,19 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Coding</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    
 </head>
 
 <body>
 
     <header>My Personal Blog</header>
-    <nav>
-        <div><a href="aboutme.html">About me</a></div>
-        <div><a href="google.com">Contact Me</a></div>
-        <div></div>
+    <nav id="nav">
+        <div id="nav-links">
+            <div><a href="aboutme.html">About me</a></div>
+            <div><a  href="https://www.google.com">Contact</a></div>
+            <div>
+                <div>
+                        <a  href="https://github.com/aholmes88"  aria-label="GitHub"></a>
+                        <i class="fab fa-github"></i>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
     </nav>
-    <img id="myPhoto" src="pictures/Cartoon me.png" rel="Cartoon me.png" alt="Cartoon Picture"></img>
+       <img id="myPhoto" src="pictures/Cartoon me.png" rel="Cartoon me.png" alt="Cartoon Picture"></img>
     <div class="Hi">
-        <h1>Hi.</h1>
+        <h1>Hi, This is my <em>Personal Blog</em></h1>
         <div class="Box">Box 1<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, tenetur commodi,
                 eligendi eos, praesentium architecto repellat voluptas veritatis sunt maiores pariatur eaque ipsum magni
                 dignissimos exercitationem repellendus est voluptates perspiciatis.
@@ -268,7 +279,7 @@
                 soluta quidem.</p>
         </div>
     </div>
-    <footer>This is the bottom of the page</footer>
+    <footer>This is the bottom of the page <button><a href="#nav">Top</a></button></footer>
 
 </body>
 

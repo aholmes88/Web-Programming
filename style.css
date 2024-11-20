@@ -1,5 +1,5 @@
 body {
-    background-image:repeating-linear-gradient(rebeccapurple, gold);
+    background-image:linear-gradient(to bottom,black, gold);
     color: white;
     margin: 1px;
     border: white 5px;
@@ -11,16 +11,23 @@ header,footer {
 }
 nav{
     background-color: grey;
+}
+#nav-links {
+    display: flex;
     justify-content:space-evenly;
-    flex-direction: row;
-    display:flex;
-
-
+    font-size: 2rem;
+    text-align: center;
 }
 #myPhoto {
     width: 10%;
     clip-path:circle();
-
+    margin-top:15px;
+    margin-left: 15px;
+}
+#myPhoto :hover {
+    transform: scale(1.2);
+    transition-duration: 3s ease-in-out;
+    cursor:wait;
 }
 h1 {
     font-family:'Courier New', Courier, monospace;
