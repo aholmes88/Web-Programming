@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-image:repeating-linear-gradient(rebeccapurple, gold);
     color: white;
     margin: 1px;
     border: white 5px;
@@ -26,10 +26,13 @@ h1 {
     background:linear-gradient(65deg ,whitesmoke, rebeccapurple);
     justify-content:center;
     text-align: center;
+    margin: 10px;
+    opacity: 0.5;
     border: 10px;
     height: auto;
     width:auto;
-    border-color:black;
+    border-color:red;
+    border-radius: 25px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 p {
