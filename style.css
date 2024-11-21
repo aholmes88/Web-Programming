@@ -1,63 +1,80 @@
 body {
-    background-image:linear-gradient(to bottom,black, gold);
-    color: white;
-    margin: 1px;
-    border: white 5px;
+  background-image: linear-gradient(to bottom, black, gold);
+  color: white;
+  margin: 1px;
+  border: white 5px;
 }
-header,footer {
-    justify-content: center;
-    text-align: center;
-    font-size: 2rem;
+header,
+footer {
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
 }
-nav{
-    background-color: grey;
+nav {
+  background-color: black;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin: 0px 5px 0px 5px;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 #nav-links {
-    display: flex;
-    justify-content:space-evenly;
-    font-size: 2rem;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 2rem;
+}
+#socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15px;
 }
 #myPhoto {
-    width: 10%;
-    clip-path:circle();
-    margin-top:15px;
-    margin-left: 15px;
+  width: 10%;
+  clip-path: circle();
+  margin-top: 15px;
+  margin-left: 15px;
+  z-index: 2;
 }
-#myPhoto :hover {
-    transform: scale(1.2);
-    transition-duration: 3s ease-in-out;
-    cursor:wait;
+#myPhotoBackgroundLight {
+    border: 5px;
+    border-radius: 20px;
+    background-image:;
+    box-shadow: pink 0 5px 10px;
+    z-index: 5 ;
 }
+
 h1 {
-    font-family:'Courier New', Courier, monospace;
-    font-weight:5rem;
-    justify-content: center;
-    text-align: center;
-    margin-top:400px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 5rem;
+  justify-content: center;
+  text-align: center;
 }
 .hi {
-    border-color: red;
-    border: 1px;
-    border-radius: 2px;
+  border-color: red;
+  border: 5px;
+  border-radius: 2px;
 }
 .Box {
-    display: flex;
-    background:linear-gradient(65deg ,whitesmoke, rebeccapurple);
-    justify-content:center;
-    text-align: center;
-    margin: 10px;
-    opacity: 0.5;
-    border: 10px;
-    height: auto;
-    width:auto;
-    border-color:red;
-    border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  background: linear-gradient(65deg, whitesmoke, rebeccapurple);
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  opacity: 0.5;
+  border: 10px;
+  height: auto;
+  width: auto;
+  border-color: red;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 p {
-    font-size: 1.5rem;
-    color: black;
-    text-align: center;
-    padding:50px
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  padding: 50px;
 }
